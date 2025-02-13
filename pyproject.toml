@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qr-pdf"  
+version = "1.0.0"  # Initial version
+description = "A Python package to generate QR codes and embed them into a PDF."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+  { name = "Your Name", email = "your.email@example.com" }
+]
+keywords = ["qr-code", "pdf-generator", "qrcode", "reportlab", "python"]
+homepage = "https://github.com/your-username/qr-code-pdf-generator"  # Replace with your GitHub repo link
+repository = "https://github.com/your-username/qr-code-pdf-generator"
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[project.dependencies]
+qrcode = ">=7.3.1"
+reportlab = ">=3.6.12"
+
+[tool.setuptools.packages.find]
+where = ["src"]
