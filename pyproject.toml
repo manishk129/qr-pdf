@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "qr-pdf"  
-version = "1.0.0"  # Initial version
+version = "1.0.1"  # Initial version
 description = "A Python package to generate QR codes and embed them into a PDF."
 readme = "README.md"
 authors = [
@@ -31,5 +31,5 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/manishkumar-hub/qr-pdf"
-Issues = "https://github.com/manishkumar-hub/qr-pdf"
+Homepage = "https://github.com/manishk129/qr-pdf"
+Issues = "https://github.com/manishk129/qr-pdf/issues"

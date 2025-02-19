@@ -1,12 +1,12 @@
 Metadata-Version: 2.2
 Name: qr-pdf
-Version: 1.0.0
+Version: 1.0.1
 Summary: A Python package to generate QR codes and embed them into a PDF.
-Home-page: https://github.com/manishkumar-hub/qr-pdf
+Home-page: https://github.com/manishk129/qr-pdf
 Author: manish
 Author-email: Manish Kumar <manishkumarpandit12@gmail.com>
-Project-URL: Homepage, https://github.com/manishkumar-hub/qr-pdf
-Project-URL: Issues, https://github.com/manishkumar-hub/qr-pdf
+Project-URL: Homepage, https://github.com/manishk129/qr-pdf
+Project-URL: Issues, https://github.com/manishk129/qr-pdf/issues
 Keywords: qr-code,qr-code-pdf,pdf,pdf-generator,qrcode,reportlab,python
 Classifier: Development Status :: 4 - Beta
 Classifier: Intended Audience :: Developers
@@ -37,6 +37,8 @@ This project generates **QR codes** from a list of values and arranges them in a
 - Configure rows, columns, margins, and padding for grid-based QR code generation.
 - Supports generating high-quality QR codes with custom sizes and error correction.
 
+### Usage 
+- To know more about how to use it : Please refer to the [Usage doc](https://github.com/manishk129/qr-pdf/blob/main/doc/usage.md)
 ---
 
 ## Installation
@@ -49,4 +51,4 @@ This project generates **QR codes** from a list of values and arranges them in a
 ### Installation Steps
 1. Clone the repository or download the project files.
    ```bash
-   git clone https://github.com/your-username/qr-code-pdf-generator.git
+   git clone https://github.com/manishk129/qr-code-pdf-generator.git
