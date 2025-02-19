@@ -9,6 +9,8 @@ This project generates **QR codes** from a list of values and arranges them in a
 - Configure rows, columns, margins, and padding for grid-based QR code generation.
 - Supports generating high-quality QR codes with custom sizes and error correction.
 
+### Usage 
+- To know more about how to use it : Please refer to the [Usage doc](https://github.com/manishk129/qr-pdf/blob/main/doc/usage.md)
 ---
 
 ## Installation
