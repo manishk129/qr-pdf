@@ -1,0 +1,52 @@
+Metadata-Version: 2.2
+Name: qr-pdf
+Version: 1.0.0
+Summary: A Python package to generate QR codes and embed them into a PDF.
+Home-page: https://github.com/manishkumar-hub/qr-pdf
+Author: manish
+Author-email: Manish Kumar <manishkumarpandit12@gmail.com>
+Project-URL: Homepage, https://github.com/manishkumar-hub/qr-pdf
+Project-URL: Issues, https://github.com/manishkumar-hub/qr-pdf
+Keywords: qr-code,qr-code-pdf,pdf,pdf-generator,qrcode,reportlab,python
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: qrcode>=7.3.1
+Requires-Dist: reportlab>=3.6.12
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-python
+
+# QR Code Generator and PDF Creator 📄✨
+
+## Project Description
+This project generates **QR codes** from a list of values and arranges them in a **PDF file**. You can configure the number of rows and columns, margins, and padding to customize the layout of the QR codes on the PDF. Each QR code is generated using the **`qrcode`** library and then embedded in a **PDF file** using **`reportlab`**.
+
+### Key Features
+- Generate individual QR codes with custom data.
+- Save QR codes in a **single-page or multi-page** PDF format.
+- Configure rows, columns, margins, and padding for grid-based QR code generation.
+- Supports generating high-quality QR codes with custom sizes and error correction.
+
+---
+
+## Installation
+
+### Prerequisites
+- Python 3.6
+- **`qrcode`** library (`pip install qrcode[pil]`)
+- **`reportlab`** library (`pip install reportlab`)
+
+### Installation Steps
+1. Clone the repository or download the project files.
+   ```bash
+   git clone https://github.com/your-username/qr-code-pdf-generator.git

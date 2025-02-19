@@ -21,4 +21,4 @@ This project generates **QR codes** from a list of values and arranges them in a
 ### Installation Steps
 1. Clone the repository or download the project files.
    ```bash
-   git clone https://github.com/your-username/qr-code-pdf-generator.git
+   git clone https://github.com/manishk129/qr-code-pdf-generator.git

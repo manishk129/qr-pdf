@@ -7,8 +7,8 @@ setup(
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     author="manish",
-    author_email="manishkumarpandit12@.com",
-    url="https://github.com/yourusername/my_package",
+    author_email="manishkumarpandit12@gmail.com",
+    url="https://github.com/manishkumar-hub/qr-pdf",
     packages=find_packages(),              # Automatically find sub-packages
     classifiers=[
         "Programming Language :: Python :: 3",

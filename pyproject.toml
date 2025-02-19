@@ -7,13 +7,10 @@ name = "qr-pdf"
 version = "1.0.0"  # Initial version
 description = "A Python package to generate QR codes and embed them into a PDF."
 readme = "README.md"
-license = { text = "MIT" }
 authors = [
-  { name = "Your Name", email = "your.email@example.com" }
+  { name = "Manish Kumar", email = "manishkumarpandit12@gmail.com" }
 ]
-keywords = ["qr-code", "pdf-generator", "qrcode", "reportlab", "python"]
-homepage = "https://github.com/your-username/qr-code-pdf-generator"  # Replace with your GitHub repo link
-repository = "https://github.com/your-username/qr-code-pdf-generator"
+keywords = ["qr-code","qr-code-pdf","pdf", "pdf-generator", "qrcode", "reportlab", "python"]
 classifiers = [
   "Development Status :: 4 - Beta",
   "Intended Audience :: Developers",
@@ -26,10 +23,13 @@ classifiers = [
   "Programming Language :: Python :: 3.10",
   "Topic :: Software Development :: Libraries :: Python Modules"
 ]
+requires-python = ">=3.6"
+# Use an array format for dependencies
+dependencies = [
+  "qrcode>=7.3.1",
+  "reportlab>=3.6.12"
+]
 
-[project.dependencies]
-qrcode = ">=7.3.1"
-reportlab = ">=3.6.12"
-
-[tool.setuptools.packages.find]
-where = ["src"]
+[project.urls]
+Homepage = "https://github.com/manishkumar-hub/qr-pdf"
+Issues = "https://github.com/manishkumar-hub/qr-pdf"
